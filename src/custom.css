@@ -1,0 +1,224 @@
+/*---STYLING FOR DESKTOP VIEW---*/
+.navstyle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(216, 210, 194, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 10px 200px;
+    box-sizing: border-box;
+}
+
+.nav-logo {
+    font-size: 20px;
+}
+
+.text-link-container {
+    display: flex;
+    gap: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.text-link {
+    text-decoration: none;
+    color: #3c2f2f;
+}
+
+.subheading {
+    color: #6e6761
+}
+
+.banner {
+    background-image: url('./Assets/9c6b69e0-9a60-4e9b-a425-81f3c3c2ba56.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    opacity: 100%;
+}
+
+.header {
+    font-size: 62px;
+    font-weight: 700;
+    color: #3c2f2f;
+}
+
+p {
+    font-size: 24px;
+}
+
+.marketing-message {
+    color: #4A4947;
+    font-size: 120px;
+}
+
+
+.marketing-subtext {
+    font-weight: 300;
+    padding-top: 15px;
+    color: #B17457;
+}
+
+
+.blade-img {
+    background-image: url('./Assets/Delicious-Yogurt-Parfaits-Spread.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    height: 1500px;
+}
+
+.blade1-contents {
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-bottom: 100px;
+}
+
+
+.video-container {
+    position: relative;
+    text-align: center;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forms-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    border-radius: 30px;
+    padding: 50px;
+    align-items: left;
+}
+
+#footer {
+    background-color: #4A4947;
+}
+
+
+#outer {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+#home-top-video:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+    background: linear-gradient(to right, rgba(223, 172, 97, 0.4), rgba(197, 197, 197, 0.3));
+}
+
+
+.cta {
+    height: 50px;
+    width: 200px;
+    border: 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    background-color: #B17457;
+    color: #D8D2C2;
+    border-radius: 15px;
+    font-weight: 400;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cta:hover {
+    transform: scale(1.05);
+    color: white;
+}
+
+input[type=text]:focus,
+textarea:focus {
+    box-shadow: 0 0 5px #B17457;
+    padding: 3px 0px 3px 3px;
+    margin: 5px 1px 3px 0px;
+    border: 1px solid #B17457 !important;
+}
+
+/* tablet view */
+@media (max-width: 1024px) and (min-width: 768px) {
+    .marketing-message {
+        font-size: 100px;
+    }
+
+    .navstyle {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: rgba(216, 210, 194, 0.3);
+        backdrop-filter: blur(5px);
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        padding: 30px 50px;
+        box-sizing: border-box;
+    }
+
+    .text-link {
+        font-size: 18px;
+    }
+}
+
+/* mobile view */
+@media (max-width: 767px) {
+    .marketing-message {
+        font-size: 80px;
+    }
+
+    .header {
+        font-size: 30px;
+    }
+
+    .navstyle {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: rgba(216, 210, 194, 0.3);
+        backdrop-filter: blur(5px);
+        z-index: 999;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        padding: 10px 10px;
+        box-sizing: border-box;
+    }
+
+    .text-link {
+        display: none;
+    }
+}
+
+.test {
+    border: '5px, solid red';
+}
