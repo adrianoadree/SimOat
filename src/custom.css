@@ -185,6 +185,17 @@ textarea:focus {
     .text-link {
         font-size: 18px;
     }
+
+    .blade1-contents {
+        padding-top: 100px;
+        padding-left: 20px;
+        padding-bottom: 100px;
+    }
+
+    .blade-content-inner {
+        font-size: 12px;
+    }
+
 }
 
 /* mobile view */
@@ -217,6 +228,12 @@ textarea:focus {
     .text-link {
         display: none;
     }
+
+    .video-container {
+        display: none;
+    }
+
+
 }
 
 .test {

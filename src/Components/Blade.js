@@ -24,14 +24,14 @@ const Blade = () => {
                         <h5 className='pt-3 subheading' >
                             Delicious, nutritious, and ready when you are — overnight oats made with fresh ingredients.
                         </h5>
-                        <p className='pt-5'>
+                        <p className='pt-5 blade-content-inner'>
                             Wake up to a better breakfast with SimOat — overnight oats crafted with wholesome, fresh ingredients.
                             Whether you're rushing to work, hitting the gym, or enjoying a slow morning, SimOat makes it simple
                             to fuel your day the smart way.
                         </p>
-                        <div className='align-left' style={{ textAlign: 'left', marginTop: '2rem' }}>
-                            <h3>🥣 Why Choose SimOat?</h3>
-                            <ul>
+                        <div className='align-left ' style={{ textAlign: 'left', marginTop: '2rem' }}>
+                            <h3>Why Choose SimOat?</h3>
+                            <ul className=''>
                                 <li><p><b>Fresh Ingredients</b> – Made with real fruits, organic oats, and natural sweeteners.</p></li>
                                 <li><p><b>Perfectly Prepped</b> – Ready-to-eat overnight oats, no cooking required.</p></li>
                                 <li><p><b>Healthy and Satisfying</b> – High in fiber and protein to keep you full longer.</p></li>

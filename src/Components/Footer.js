@@ -1,5 +1,8 @@
 import React from 'react';
 import '../Assets/SIMOAT-logo.jpg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationArrow, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram, faViber } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
 
@@ -17,15 +20,22 @@ const Footer = () => {
                             <h2 style={{ fontWeight: '400', color: 'white' }}>SimOat Location</h2>
                         </div>
                         <div style={{ color: '#FAF7F0' }}>
-                            <p style={{ fontSize: '18px' }}>📍Weston Tower, Brixton Place, Kapitolyo, Pasig</p>
-                            <p style={{ fontSize: '18px' }}>📞 0917-XXX-XXXX</p>
+                            <p style={{ fontSize: '18px' }}>
+                                <FontAwesomeIcon icon={faLocationArrow} style={{ color: '#B17457' }} />
+                                <span> Weston Tower, Brixton Place, Kapitolyo, Pasig </span>
+                            </p>
+                            <p style={{ fontSize: '18px' }}>
+                                <FontAwesomeIcon icon={faPhone} style={{ color: '#B17457' }} />
+                                <span> 0917-xxx-xxxx </span>
+                            </p>
                         </div>
                     </div>
                     <div className="col-lg-3">
-                        <h5 style={{ fontWeight: '600', color: '#4a3f35' }}>Follow us</h5>
-                        <div style={{ display: 'flex', gap: '15px', marginTop: '10px' }}>
-                            <p style={{ margin: 0, color: '#7c6f65' }}>Facebook</p>
-                            <p style={{ margin: 0, color: '#7c6f65' }}>Viber</p>
+                        <h5 style={{ fontWeight: '600', color: '#9a918b' }}>Follow us</h5>
+                        <div style={{ display: 'flex', gap: '15px', marginTop: '10px', fontSize: '32px' }}>
+                            <FontAwesomeIcon icon={faFacebook} style={{ color: '#B17457' }} />
+                            <FontAwesomeIcon icon={faInstagram} style={{ color: '#B17457' }} />
+                            <FontAwesomeIcon icon={faViber} style={{ color: '#B17457' }} />
                         </div>
                     </div>
                 </div>
