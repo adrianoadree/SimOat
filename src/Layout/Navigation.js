@@ -17,9 +17,9 @@ const Navigation = () => {
                     </Link>
                 </div>
                 <div className='text-link-container' >
-                    <a className='text-link' href="*">Why SimOat?</a>
-                    <a className='text-link' href="*">Our Products</a>
-                    <a className='text-link' href="*">How to Order?</a>
+                    <a className='text-link' href="about-simoat">Why SimOat?</a>
+                    <a className='text-link' href="our-products">Our Products</a>
+                    <a className='text-link' href="order-here">How to Order?</a>
                 </div>
             </nav>
             <Outlet />

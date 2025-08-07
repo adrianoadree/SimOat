@@ -39,7 +39,9 @@ const Blade = () => {
                             </ul>
                         </div>
                     </div>
-                    <button className='cta' type="button" href="/">learn More</button>
+                    <a href="/about-simoat">
+                        <button className='cta'>learn More</button>
+                    </a>
                 </div>
                 <div className='col-lg-6 blade-img' >
                 </div>
