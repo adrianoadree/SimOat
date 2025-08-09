@@ -13,7 +13,7 @@ const Footer = () => {
         <div id="footer" style={{ paddingTop: '90px', padding: '40px 0' }}>
             <div className="container">
                 <div className="row text-start mb-4">
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 text-center">
                         <Link to="/">
                             <img src={require('../Assets/SIMOAT-logo-white.png')} style={{ maxHeight: '200px' }} alt='Logo'></img>
                         </Link>

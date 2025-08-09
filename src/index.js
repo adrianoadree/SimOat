@@ -9,6 +9,7 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import Navigation from './Layout/Navigation';
 import 'bootstrap/dist/css/bootstrap.css';
 import OurProducts from './Pages/OurProducts';
+import AboutSimoat from './Pages/AboutSimoat';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,8 +18,9 @@ root.render(
     <Routes>
       <Route path="/" element={<Navigation />}>
         <Route index element={<Home />} />
+        <Route path="about-simoat" element={<AboutSimoat />} />
         <Route path="our-products" element={<OurProducts />} />
-        <Route path="order-here" element={<HowToOrdder />} />
+        <Route path="how-to-order" element={<HowToOrdder />} />
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>

@@ -18,8 +18,11 @@ const Navigation = () => {
                 </div>
                 <div className='text-link-container' >
                     <a className='text-link' href="about-simoat">Why SimOat?</a>
-                    <a className='text-link' href="our-products">Our Products</a>
-                    <a className='text-link' href="order-here">How to Order?</a>
+                    <a className='text-link our-product' href="our-products">Our Products</a>
+                    <ul className='our-product-dropdown'>
+                        <li>asd</li>
+                    </ul>
+                    <a className='text-link' href="how-to-order">How to Order?</a>
                 </div>
             </nav>
             <Outlet />
